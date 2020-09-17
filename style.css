@@ -1,0 +1,70 @@
+body {
+  font-family: 'Rokkitt', serif;
+  background: linear-gradient(to top, #e8cbc0, #c6cdee);
+  color: rgb(61, 42, 34);
+  text-shadow: 0px 1px 1px #ce9a98;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 45px;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+p {
+  margin: 5px 40px;
+  font-size: 20px;
+  line-height: 35px;
+}
+h2 {
+  font-size: 35px;
+  margin: 10px 40px;
+  font-weight: lighter;
+}
+li {
+  margin: 15px 40px;
+  font-size: 20px;
+  font-weight: lighter;
+  list-style: circle;
+}
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 40px;
+}
+img {
+position: relative;
+float: right;
+width: 100px;
+}
+video {
+  margin: 20px 600px;
+  display: block width 600px height 500px;
+  border: #ce9a98;
+  border-radius: 4px;
+  border-style: solid;
+}
+h4 {
+  font-size: 25px;
+  margin: 15px 40px;
+  text-align: center;
+}
+button {
+  background: center #e8cbc0;
+  display: block;
+  border-radius: 40px;
+  padding: 30px 40px;
+  font-size: 20px;
+  border: solid rgb(61, 42, 34);
+  color: rgb(61, 42, 34);
+  font-weight: bolder;
+  transition: opacity 150ms ease-in-out;
+  cursor: pointer;
+  opacity: 1;
+  margin: 30px auto;
+  box-shadow: 8px 8px 5px #ce9a98;
+}
+button:hover {
+  background: rgb(61, 42, 34);
+  color: #ce9a98;
+}
